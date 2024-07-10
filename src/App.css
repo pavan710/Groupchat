@@ -1,0 +1,48 @@
+body{
+    height:87vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+   background-color: black;
+    
+}
+.name{
+    font-size: 1rem;
+    margin:2px 2px;
+    font-weight: 500;
+   
+}
+.col2{
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.col2 button{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.col2 button:hover{
+  background-color: white;
+  color: black;
+  font-weight: 900;
+    transition: .2s;
+}
+.col2 h1{
+    font-weight: 900;
+    
+}
+.col2 p{
+    font-size: 1rem;
+}
+img{
+    filter: grayscale();
+}
+.chat{
+    width: 500px;
+    text-align: center;
+}
